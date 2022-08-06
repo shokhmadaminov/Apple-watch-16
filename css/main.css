@@ -20,9 +20,11 @@
 :root {
     --site-font: "Roboto", "Arial", sans-serif;
     --primary-color: #ea625c;
+    --primary-hover-color: #c9514c;
     --three-text-color: #333;
     --seven-text-color: #777;
     --six-text-color: #666;
+    --eight-color: #888;
     --black-text-color: #000;
     --second-text-color: #222;
     --gray-color: #ddd;
@@ -145,4 +147,60 @@ body {
 }
 .header__form input::placeholder {
     color: var(--six-text-color);
+}
+
+
+/* MAIN STYLES */
+.main {
+    flex-grow: 1;
+}
+
+/* CONTENT STYLES */
+.content {
+    width: 100%;
+    max-width: 490px;
+}
+.content__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: var(--black-text-color);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.content__text {
+    border-left: 3px solid var(--eight-color);
+    padding-left: 37px;
+    margin-bottom: 30px;
+}
+.content__btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 12px 0;
+    display: inline-block;
+}
+.content__btn:hover {
+    background-color: var(--primary-hover-color);
+}
+.content__btn:active {
+    opacity: 0.6;
+}
+
+/* INTRO STYLES */
+.intro {
+    padding-top: 140px;
+    padding-bottom: 185px;
+    background-image: url("../images/jpg/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 587px 565px;
+    background-position: calc(50% + 245px + 290px) bottom;
+    border-bottom: 2px solid var(--gray-color);
+}
+.intro__btn {
+    padding: 12px 38.5px;
 }
