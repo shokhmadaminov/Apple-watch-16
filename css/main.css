@@ -264,3 +264,22 @@ body {
 .features__item-link:hover::before {
     width: 55px;
 }
+
+/* BRAND STYLES */
+.brand {
+    padding: 70px 0;
+}
+.brand__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand__btn {
+    padding: 12px 90px;
+}
+.brand__img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
