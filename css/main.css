@@ -283,3 +283,25 @@ body {
     object-fit: cover;
     object-position: center;
 }
+
+/* MAIN BOTTOM STYLES */
+.main-bottom {
+    padding: 240px 0;
+    background-image: url("../images/jpg/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-bottom__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-bottom__title {
+    color: var(--white-text-color);
+}
+.main-bottom__text {
+    border-left-color: var(--white-text-color);
+    color: var(--white-text-color);
+}
+.main-bottom__btn {
+    padding: 12px 46px;
+}
