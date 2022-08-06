@@ -305,3 +305,20 @@ body {
 .main-bottom__btn {
     padding: 12px 46px;
 }
+
+
+/* BACKGROUND RETINA DISPLAY */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .intro {
+        background-image: url("../images/jpg/intro-bg@2x.jpg");
+    }
+    .main-bottom {
+        background-image: url("../images/jpg/runners@2x.jpg");
+    }
+}
